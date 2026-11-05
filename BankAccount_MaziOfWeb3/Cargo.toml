@@ -1,0 +1,13 @@
+[package]
+name = "bank_account_mazi_of_web3"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[dependencies]
+solana-program = "2.2"
+borsh = "0.10"
+borsh-derive = "0.10"
+thiserror = "2.0"
